@@ -1,7 +1,8 @@
 import React from 'react';
+import * as styles from './Footer.module.scss';
 
 const Footer = (props) => (
-    <footer className={StyleSheet.Footer}>
+    <footer className={styles.Footer}>
         <p>
             Copyright &copy; All Rights Reserved
             {' '}{new Date().getFullYear()} Stuart Palmer

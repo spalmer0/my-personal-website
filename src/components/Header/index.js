@@ -1,8 +1,9 @@
 import { Link } from 'gatsby';
 import React from 'react';
+import * as styles from './Header.module.scss';
 
 const Header = (props) => (
-    <header>
+    <header className={styles.Header}>
         <h1>Stuart Palmer</h1>
         <nav>
             <ul>
