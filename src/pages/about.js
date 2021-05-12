@@ -5,7 +5,7 @@ const About = (props) => (
     <div>
         <h1>About Me</h1>
         <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer sit amet ante ut mi interdum auctor. Suspendisse condimentum consectetur pharetra. Suspendisse vitae luctus dui. Mauris dictum metus sed blandit tempus. Quisque odio diam, eleifend sit amet gravida sed, imperdiet vel odio. Sed laoreet varius tortor et faucibus. Quisque at nunc sollicitudin nulla aliquet rhoncus. Quisque tincidunt justo hendrerit metus pretium, sit amet rhoncus nunc pellentesque. Integer interdum viverra nisi sit amet lobortis. Maecenas placerat neque erat, nec suscipit est egestas feugiat. Nunc euismod ac libero id auctor. Quisque convallis sem sit amet ullamcorper tristique.
+            Software engineer that has spent the past 15 years in IT project and product management.  Adept in a variety of programming languages, I have the ability to solve complex problems, and deliver thoughtful solutions to meet customer needs.
         </p>
         <Link to="/contact">Contact Me</Link>
     </div>
