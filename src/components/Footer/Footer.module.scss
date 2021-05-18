@@ -1,5 +1,8 @@
 .Footer {
     display: flex;
+    min-height: 5vh;
     align-items: center;
-    justify-content: center;
+    justify-content:center;
+    // position: sticky;
+    background-color: lightgray;
 }
