@@ -1,5 +1,11 @@
 import React from 'react';
 import { Link } from 'gatsby';
+import jmu from "../images/jmu.png";
+import popm from "../images/popm.png";
+import uva from "../images/uva.png";
+import itil from "../images/itil.png";
+import ga from "../images/ga.png";
+import pmp from "../images/pmp.png";
 
 const Resume = (props) => (
     <div>
@@ -80,16 +86,19 @@ const Resume = (props) => (
 
         <h2>Education</h2>
         <p><strong>General Assembly</strong></p>
+        <img src={ga} alt="General Assembly" />
         <ul>
             <li>Software Engineering Immersive Remote Program</li>
             <li>September 2020 - March 2021</li>
         </ul>
         <p><strong>University of Virginia</strong></p>
+        <img src={uva} alt="University of Virginia" />
         <ul>
             <li>Graduate Certificate, Cybersecurity Management</li>
             <li>September 2014 - December 2015</li>
         </ul>
         <p><strong>James Madison University</strong></p>
+        <img src={jmu} alt="James Madison University" />
         <ul>
             <li>Bachelor of Business Administration, Computer Information Systems</li>
             <li>August 2001 - May 2005</li>
@@ -97,8 +106,11 @@ const Resume = (props) => (
         <h3>Certifications</h3>
         <ul>
             <li>SAFe Product Owner/Product Manager</li>
+            <img src={popm} alt="SAFe Product Owner/Product Manager" />
             <li>Project Management Professional (PMP)</li>
+            <img src={pmp} alt="Project Management Professional" />
             <li>ITIL</li>
+            <img src={itil} alt="ITILv4" />
         </ul>
 
 

@@ -2,12 +2,18 @@ import { Link } from 'gatsby';
 import React from 'react';
 import github from "../images/github.png";
 import linkedin from "../images/linkedin.png";
+import gmail from "../images/gmail.png";
 
 const Contact = (props) => (
     <div>
         <h1>Contact Me</h1>
         <p>Richmond, VA</p>
-        <p><a href="mailto: palmersf@gmail.com" target="_blank" rel="noreferrer">palmersf@gmail.com</a></p>
+        <a href="mailto: palmersf@gmail.com" target="_blank" rel="noreferrer">
+            <img 
+                src={gmail}
+                alt="palmersf@gmail.com"
+            />
+        </a>
         <a href="https://github.com/spalmer0" target="_blank" rel="noreferrer">
             <img 
                 src={github}
