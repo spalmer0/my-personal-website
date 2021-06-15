@@ -6,7 +6,7 @@ import trivia from "../images/trivia.png";
 
 
 const Portfolio = (props) => (
-    <div>
+    <div className="portfolio">
         <h1>Portfolio</h1>
         <p>
             Here's what I've been up to.

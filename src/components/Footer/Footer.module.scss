@@ -1,8 +1,45 @@
 .Footer {
-    display: flex;
-    min-height: 5vh;
-    align-items: center;
-    justify-content:center;
-    // position: sticky;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    width: 100%;
     background-color: lightgray;
+    min-height: 5vh;
+    display: grid;
+    grid-template-columns: 40% 20% 40%;
+    grid-template-rows: 40% 30% 30%;
+    
+    
+}
+
+.imgContainer {
+    display: flex;
+    justify-content: space-around;
+    margin: 5px;
+    grid-column: 2 / 2;
+    grid-row: 1 / 1;
+}
+
+img {
+    height: 30px;
+    width: auto;
+}
+
+.about {
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    grid-column: 2 / 2;
+    grid-row: 2 / 2;
+}
+
+.about:visited {
+    text-decoration: none;
+}
+
+.copy {
+    display: flex;
+    justify-content: center;
+    grid-column: 1 / span 3;
+    grid-row: 3 / 3;
 }
